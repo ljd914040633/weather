@@ -1,0 +1,25 @@
+<view class="content">
+   <view class="today">
+       <view class="info">
+           <view class="temp">{{today.temp}}℃</view>
+           <view class="weter">
+               {{today.weather}} {{today.winddirect}} {{today.windpower}}
+           </view>
+           <view>{{index[5].iname}} {{index[5].ivalue}}</view>
+           <view>{{index[5].detail}}</view>
+           <view class="city">{{city}}</view>
+       </view>
+   </view>
+   <import src="../template/temptpl.wxml" />
+   <view class="futrue">
+    <block wx:for="{{ [1,2,3,4] }}">
+        <view class="futrue-item">
+            <view>{{ todayInfo[index].date }}{{todayInfo[index].week}}</view>
+            <view>{{ todayInfo[index].day.weather }}</view>
+            <view>{{ todayInfo[index].day.winddirect }} {{ todayInfo[index].day.windpower }}</view>
+            <view>高温 {{ todayInfo[index].day.temphigh }}℃</view>
+            <view>低温 {{ todayInfo[index].night.templow }}</view>
+        </view>
+    </block>
+   </view>
+</view>

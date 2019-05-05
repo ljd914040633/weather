@@ -1,0 +1,61 @@
+page{
+height: 100%;
+}
+.content{
+    font-size: 14px;
+    height: 100%;
+    width: 750rpx;
+    background-image: url("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3253325827,761778924&fm=26&gp=0.jpg");
+    color: #FFFFFF;
+}
+.info{
+    padding: 20px;
+    background: #FFFFFF;
+    background: rgba(0, 0,0, 0.5);
+    box-shadow: 10px 10px 20px rgba(0, 0,0, 0.5);
+}
+.today{
+  padding-top: 50rpx;
+  height: 50%;
+}
+.city{
+    /* color: white; */
+    font-size: 16px;
+    text-align: right; 
+    margin-right: 10rpx;
+    margin-top: 30rpx;
+}
+.temp{
+    font-size: 50px;
+    text-align: center;
+}
+.weter{
+    text-align: center;
+}
+
+.futrue{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    padding-left: 5rpx;
+    background: #FFFFFF;
+    background: rgba(0, 0,0, 0.1);
+    box-shadow: 10px 10px 20px rgba(0, 0,0, 0.5);
+    text-align: center;
+    padding-top: 10rpx;
+    padding-bottom: 10rpx;
+}
+
+.futrue-item{
+    height: 95%;
+    /* width: 280rpx; */
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid coral;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.futrue-item view{
+    margin-top: 10px
+}

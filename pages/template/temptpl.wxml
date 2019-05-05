@@ -1,0 +1,9 @@
+<template name="tpl">
+    <view class="futrue-item">
+            <view>{{ todayInfo[index].date }}{{todayInfo[index].week}}</view>
+            <view>{{ todayInfo[index].day.weather }}</view>
+            <view>{{ todayInfo[index].day.winddirect }} {{ todayInfo[index].day.windpower }}</view>
+            <view>高温 {{ todayInfo[index].day.temphigh }}℃</view>
+            <view>低温 {{ todayInfo[index].night.templow }}℃</view>
+        </view>
+</template>
